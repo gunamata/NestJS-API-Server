@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/domain/base/base.entity.ts</title>
+    <title>Code coverage report for src/web/rest/management.controller.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="..\..\..\prettify.css" />
     <link rel="stylesheet" href="..\..\..\base.css" />
@@ -18,13 +18,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="..\..\..\index.html">All files</a> / <a href="index.html">src/domain/base</a> base.entity.ts</h1>
+        <h1><a href="..\..\..\index.html">All files</a> / <a href="index.html">src/web/rest</a> management.controller.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
@@ -38,14 +38,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>7/7</span>
             </div>
         
             
@@ -77,47 +77,56 @@
 <a name='L19'></a><a href='#L19'>19</a>
 <a name='L20'></a><a href='#L20'>20</a>
 <a name='L21'></a><a href='#L21'>21</a>
-<a name='L22'></a><a href='#L22'>22</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { ObjectIdColumn, PrimaryGeneratedColumn, Column } from 'typeorm';
-import { ApiModelProperty } from '@nestjs/swagger';
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Controller, Get, Logger, UseInterceptors } from '@nestjs/common';
+import { LoggingInterceptor } from '../../client/interceptors/logging.interceptor';
+import { ApiUseTags, ApiResponse, ApiOperation, ApiExcludeEndpoint } from '@nestjs/swagger';
 &nbsp;
-export abstract class BaseEntity {
-    @ObjectIdColumn()
-    @PrimaryGeneratedColumn('uuid')
-    @ApiModelProperty({
-        example: '66ed8031-d40e-4f30-8ae4-8bf5c2ca87ff',
-        description: 'Entity id',
-    })
-    id?: string;
+@Controller('management')
+@UseInterceptors(LoggingInterceptor)
+@ApiUseTags('management-controller')
+export class ManagementController {
+  logger = new Logger('ManagementController');
 &nbsp;
-    @Column({ nullable: true })
-    createdBy?: string;
-    @Column({ nullable: true })
-    createdDate?: Date;
-    @Column({ nullable: true })
-    lastModifiedBy?: string;
-    @Column({ nullable: true })
-    lastModifiedDate?: Date;
+  @ApiExcludeEndpoint()
+  @Get('/info')
+  @ApiOperation({ title: 'Microservice Info' })
+  @ApiResponse({
+    status: 200,
+    description: 'Check if the microservice is up'
+  })
+  info(): any {
+    return {
+      activeProfiles: 'no',
+      'display-ribbon-on-profiles': 'no'
+    };
+  }
 }
 &nbsp;</pre></td></tr></table></pre>
 

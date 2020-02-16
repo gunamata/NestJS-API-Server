@@ -20,10 +20,11 @@ describe('App', () => {
         await app.init();
     });
 
-    it('/GET up running info OK', () =>
-        request(app.getHttpServer())
-            .get('/api/books')
-            .expect(200));
+  it('/GET up running info OK', () =>
+    request(app.getHttpServer())
+      .get('/management/info')
+      .expect(200)
+      .expect(infoService));
 
     afterEach(async () => {
         await app.close();

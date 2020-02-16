@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ormconfig } from './orm.config';
 import { BookModule } from './module/book.module';
+import { ManagementModule } from './module/management.module';
 // jhipster-needle-add-entity-module-to-main-import - JHipster will import entity modules here, do not remove
 // jhipster-needle-add-controller-module-to-main-import - JHipster will import controller modules here, do not remove
 // jhipster-needle-add-service-module-to-main-import - JHipster will import service modules here, do not remove
@@ -10,6 +11,7 @@ import { BookModule } from './module/book.module';
     imports: [
         TypeOrmModule.forRoot(ormconfig),
         BookModule,
+        ManagementModule,
     // jhipster-needle-add-entity-module-to-main - JHipster will add entity modules here, do not remove
     ],
     controllers: [
