@@ -27,6 +27,7 @@
 ## Description
 
 [NestJS Framework](https://github.com/nestjs/nest) server project generated from official [JHipster NodeJS blueprint](https://github.com/jhipster/generator-jhipster-nodejs).
+This sample project provides CRUD APIs implementation for a simple 'book' entity with title, author, isbn, publised, price as columns.
 
 ## Installation
 
@@ -126,7 +127,7 @@ $ npm run test:e2e
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
+If you have any questions related to this sample application, Please feel free to write to gunasekhar@outlook.com.
 
 ## License
 
