@@ -129,7 +129,7 @@ $ npm run test:e2e
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-If you have any questions related to this sample application, Please feel free to write to gunasekhar@outlook.com.
+If you have any questions related to this sample application, Please feel free to contact me on LinkedIn, https://www.linkedin.com/in/gunasekhar-matamalam-5b06ab7b/ or e-mail me at gunasekhar@outlook.com.
 
 ## License
 
