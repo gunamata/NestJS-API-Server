@@ -57,12 +57,6 @@ if(process.env.NODE_ENV==='prod'){
 
 ```
 
-### Migration data and schema
-
-According [typeORM migration guide](https://github.com/typeorm/typeorm/blob/master/docs/migrations.md),
-there are under [src/migrations/](src/migrations/) the scripts to create the database schema and after to insert data seed.
-The scripts are automatically run in the first start up, and after anymore.
-
 ## Running the app
 
 ```bash
