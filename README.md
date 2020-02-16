@@ -62,6 +62,9 @@ if(process.env.NODE_ENV==='prod'){
 $ npm run generate-flow-diagram
 ```
 [app-flow-diagram]: https://github.com/gunamata/NestJS-API-Server/blob/master/arkit.svg
+<p align="center">
+  <a href="https://github.com/gunamata/NestJS-API-Server/blob/master/arkit.svg" target="blank"><img src="https://github.com/gunamata/NestJS-API-Server/blob/master/arkit.svg" /></a>
+</p>
 
 ## Running the app
 
