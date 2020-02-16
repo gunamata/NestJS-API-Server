@@ -81,6 +81,8 @@ $ set NODE_ENV=prod&& npm run build && npm run start:prod
 
 # run production build with node
 $ set NODE_ENV=prod&& node dist/main.js
+
+The app is server on http://localhost:8081. You can test the APIs using the Swagger API document page in your browser using the url http://localhost:8081/api/v2/api-docs/
 ```
 
 > You can specify dev or prod NODE_ENV value (default is dev as indicated in [.env](.env))
