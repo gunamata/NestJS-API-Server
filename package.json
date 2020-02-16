@@ -21,7 +21,8 @@
     "test:cov": "jest --coverage",
     "test:watch": "jest --watch",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --coverage --config ./e2e/jest.e2e.config.json"
+    "test:e2e": "jest --coverage --config ./e2e/jest.e2e.config.json",
+    "generate-flow-diagram": "npx arkit src/ -o arkit.svg"
   },
   "dependencies": {
     "@nestjs/common": "6.5.3",
@@ -57,6 +58,7 @@
     "@typescript-eslint/eslint-plugin": "2.11.0",
     "@typescript-eslint/eslint-plugin-tslint": "2.11.0",
     "@typescript-eslint/parser": "2.11.0",
+    "arkit": "1.6.2",
     "eslint": "6.7.2",
     "eslint-config-prettier": "6.7.0",
     "eslint-loader": "3.0.3",
