@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="500px" preserveAspectRatio="none" style="width:507px;height:500px;" version="1.1" viewBox="0 0 507 500" width="507px" zoomAndPan="magnify"><defs/><g><!--entity _app_module--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="87" x="272.5" y="8"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="282.5" y="30.0059">app.module</text><!--entity _base_entity--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="82" x="199" y="455"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="209" y="477.0059">base.entity</text><!--entity _book_controller--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="107" x="169.5" y="183"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="87" x="179.5" y="205.0059">book.controller</text><!--entity _book_entity--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="83" x="277.5" y="394"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="63" x="287.5" y="416.0059">book.entity</text><!--entity _book_module--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="95" x="268.5" y="69"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="75" x="278.5" y="91.0059">book.module</text><!--entity _book_repository--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="110" x="386" y="333"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="90" x="396" y="355.0059">book.repository</text><!--entity _book_service--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="93" x="308.5" y="272"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="73" x="318.5" y="294.0059">book.service</text><!--entity _config--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="56" x="8" y="333"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="36" x="18" y="355.0059">config</text><!--entity _header_util--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="81" x="58.5" y="272"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="61" x="68.5" y="294.0059">header-util</text><!--entity _logging_interceptor--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="127" x="214.5" y="333"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="107" x="224.5" y="355.0059">logging.interceptor</text><ellipse cx="65.1274" cy="25.242" fill="#F8F8F8" rx="25.6274" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="49.1274" y="28.9842">main</text><ellipse cx="424.8406" cy="86.242" fill="#F8F8F8" rx="46.8406" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="393.8406" y="89.9842">orm.config</text><!--entity _pagination_entity--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="114" x="105" y="394"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="115" y="416.0059">pagination.entity</text><ellipse cx="64.9411" cy="143.242" fill="#F8F8F8" rx="36.9411" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="48" x="40.9411" y="146.9842">swagger</text><!--link _app_module to _book_module--><path d="M316,42.122 C316,48.756 316,56.535 316,63.633 " fill="none" id="_app_module-_book_module" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="316,68.897,320,59.897,316,63.897,312,59.897,316,68.897" style="stroke: #000000; stroke-width: 0.5;"/><!--link _app_module to orm.config--><path d="M345.785,42.122 C362.954,51.416 384.276,62.957 400.472,71.723 " fill="none" id="_app_module-orm.config" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="404.897,74.118,398.8861,66.3162,400.4998,71.738,395.078,73.3517,404.897,74.118" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_controller to _book_entity--><path d="M215.041,217.348 C200.779,249.247 175.187,320.709 207,367 C221.703,388.394 248.637,399.1488 272.407,404.5527 " fill="none" id="_book_controller-_book_entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="277.425,405.6265,269.4606,399.8327,272.5356,404.5808,267.7875,407.6558,277.425,405.6265" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_controller to _book_service--><path d="M247.8,217.069 C260.195,225.123 275.412,235.044 289,244 C301.391,252.167 315.046,261.255 326.704,269.041 " fill="none" id="_book_controller-_book_service" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="330.903,271.847,325.6413,263.5215,326.7454,269.0695,321.1973,270.1737,330.903,271.847" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_controller to _header_util--><path d="M193.583,217.108 C180.261,224.769 164.506,234.352 151,244 C140.559,251.459 129.628,260.499 120.497,268.44 " fill="none" id="_book_controller-_header_util" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="116.701,271.768,126.1051,268.8417,120.4603,268.4714,120.8306,262.8267,116.701,271.768" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_controller to _logging_interceptor--><path d="M228.991,217.12 C238.992,244.033 259.084,298.098 270.184,327.968 " fill="none" id="_book_controller-_logging_interceptor" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="272.017,332.9,272.6311,323.0703,270.2752,328.2132,265.1323,325.8572,272.017,332.9" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_controller to _pagination_entity--><path d="M201.97,217.292 C194.07,224.578 185.839,233.821 181,244 C158.276,291.796 158.292,355.779 160.176,388.6 " fill="none" id="_book_controller-_pagination_entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="160.518,393.9745,163.9373,384.7382,160.1999,388.9846,155.9535,385.2472,160.518,393.9745" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_entity to _base_entity--><path d="M297.413,428.122 C287.572,435.4714 275.85,444.2263 265.57,451.9031 " fill="none" id="_book_entity-_base_entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="261.561,454.8975,271.1656,452.7177,265.5673,451.9059,266.3791,446.3076,261.561,454.8975" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_module to _book_controller--><path d="M302.675,103.047 C286.032,123.091 257.557,157.383 239.538,179.084 " fill="none" id="_book_module-_book_controller" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="236.3,182.983,245.1275,178.6155,239.4947,179.1367,238.9735,173.504,236.3,182.983" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_module to _book_repository--><path d="M351.75,103.036 C385.834,121.048 432,153.79 432,199 C432,199 432,199 432,245 C432,273.736 435.453,306.773 438.081,327.759 " fill="none" id="_book_module-_book_repository" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="438.729,332.825,441.5547,323.3902,438.0946,327.8654,433.6194,324.4053,438.729,332.825" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_module to _book_service--><path d="M319.126,103.109 C326.114,139.127 343.006,226.183 350.858,266.654 " fill="none" id="_book_module-_book_service" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="351.86,271.814,354.0743,262.2173,350.9086,266.9054,346.2205,263.7396,351.86,271.814" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_repository to _book_entity--><path d="M407.663,367.122 C391.928,374.732 373.077,383.848 356.811,391.7142 " fill="none" id="_book_repository-_book_entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="352.297,393.8975,362.1407,393.5797,356.7981,391.7204,358.6574,386.3778,352.297,393.8975" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_service to _book_entity--><path d="M355.83,306.127 C356.125,322.06 355.158,346.893 348,367 C345.149,375.008 340.457,382.958 335.669,389.803 " fill="none" id="_book_service-_book_entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="332.692,393.9129,341.212,388.9722,335.6259,389.8641,334.7339,384.278,332.692,393.9129" style="stroke: #000000; stroke-width: 0.5;"/><!--link _book_service to _book_repository--><path d="M378.5,306.122 C389.213,313.471 401.974,322.226 413.164,329.903 " fill="none" id="_book_service-_book_repository" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="417.529,332.897,412.3726,324.5059,413.4067,330.0674,407.8452,331.1015,417.529,332.897" style="stroke: #000000; stroke-width: 0.5;"/><!--link _header_util to _config--><path d="M81.785,306.122 C74.1457,313.276 65.0842,321.762 57.0469,329.289 " fill="none" id="_header_util-_config" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="53.1942,332.897,62.4977,329.6651,56.8439,329.4794,57.0296,323.8256,53.1942,332.897" style="stroke: #000000; stroke-width: 0.5;"/><!--link _header_util to _pagination_entity--><path d="M107.496,306.184 C118.769,327.655 138.683,365.587 151.066,389.1727 " fill="none" id="_header_util-_pagination_entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="153.437,393.6894,152.7953,383.8615,151.1129,389.2624,145.712,387.58,153.437,393.6894" style="stroke: #000000; stroke-width: 0.5;"/><!--link <b>main</b> to _app_module--><path d="M90.9824,25 C149.713,25 208.443,25 267.173,25 " fill="none" id="&lt;b&gt;main&lt;/b&gt;-_app_module" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="272.491,25,263.491,21,267.491,25,263.491,29,272.491,25" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>main</b> to _config--><path d="M54.723,37.215 C37.8191,56.875 6,99.523 6,142 C6,142 6,142 6,245 C6,274.749 17.4723,307.475 26.2281,328.121 " fill="none" id="&lt;b&gt;main&lt;/b&gt;-_config" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="28.2743,332.845,28.368,322.9966,26.2871,328.2568,21.0269,326.176,28.2743,332.845" style="stroke: #000000; stroke-width: 1.0;"/><!--link <b>main</b> to swagger--><path d="M65,38.414 C65,59.171 65,100.971 65,124.634 " fill="none" id="&lt;b&gt;main&lt;/b&gt;-swagger" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="65,129.675,69,120.675,65,124.675,61,120.675,65,129.675" style="stroke: #000000; stroke-width: 1.0;"/><!--link _pagination_entity to _base_entity--><path d="M183.314,428.122 C192.944,435.4064 204.399,444.0714 214.484,451.6991 " fill="none" id="_pagination_entity-_base_entity" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="218.712,454.8975,213.9483,446.2773,214.7247,451.8807,209.1214,452.657,218.712,454.8975" style="stroke: #000000; stroke-width: 0.5;"/><!--link swagger to _config--><path d="M63.2728,156.21 C58.5018,189.936 45.0957,284.703 39.0385,327.521 " fill="none" id="swagger-_config" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="38.3029,332.721,43.5259,324.3711,39.0043,327.7704,35.605,323.2489,38.3029,332.721" style="stroke: #000000; stroke-width: 0.5;"/><script type="text/plantuml"><![CDATA[
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 14
+skinparam ranksep 27
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+rectangle "app.module" as _app_module
+rectangle "base.entity" as _base_entity
+rectangle "book.controller" as _book_controller
+rectangle "book.entity" as _book_entity
+rectangle "book.module" as _book_module
+rectangle "book.repository" as _book_repository
+rectangle "book.service" as _book_service
+rectangle "config" as _config
+rectangle "header-util" as _header_util
+rectangle "logging.interceptor" as _logging_interceptor
+(<b>main</b>)
+(orm.config)
+rectangle "pagination.entity" as _pagination_entity
+(swagger)
+
+
+_app_module --> _book_module
+_app_module --> (orm.config)
+_book_controller ---> _book_entity
+_book_controller ---> _book_service
+_book_controller ---> _header_util
+_book_controller ----> _logging_interceptor
+_book_controller ----> _pagination_entity
+_book_entity --> _base_entity
+_book_module ---> _book_controller
+_book_module --> _book_repository
+_book_module --> _book_service
+_book_repository --> _book_entity
+_book_service --> _book_entity
+_book_service --> _book_repository
+_header_util --> _config
+_header_util ---> _pagination_entity
+(<b>main</b>) -[thickness=1]> _app_module
+(<b>main</b>) -[thickness=1]> _config
+(<b>main</b>) -[thickness=1]> (swagger)
+_pagination_entity --> _base_entity
+(swagger) --> _config
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>
