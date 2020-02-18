@@ -29,8 +29,6 @@
 [NestJS Framework](https://github.com/nestjs/nest) server project generated from official [JHipster NodeJS blueprint](https://github.com/jhipster/generator-jhipster-nodejs).
 This sample project provides CRUD APIs implementation for a simple 'book' entity with title, author, isbn, publised, price as columns.
 
-## Description
-
 ### Features
 
 	-	dev, prod profiles
