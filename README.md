@@ -59,7 +59,7 @@ if(process.env.NODE_ENV==='prod'){
 ```
 ## App Flow Diagram
 ```bash
-# Generate flow diagram. The command uses npm package arkit.
+# Generate flow diagram. Below command generates arkit.svg in the folder. The command uses npm package arkit.
 $ npm run generate-flow-diagram
 ```
 [app-flow-diagram]: https://github.com/gunamata/NestJS-API-Server/blob/master/arkit.svg
