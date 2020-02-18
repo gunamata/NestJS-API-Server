@@ -27,7 +27,7 @@ export default class Book extends BaseEntity {
     @Column({ name: 'isbn' })
     isbn: string;
 
-    @Column({ type: 'double', name: 'price' })
+    @Column({ type: 'numeric', name: 'price' })
     price: number;
 
     @Column({ type: 'date', name: 'published' })
