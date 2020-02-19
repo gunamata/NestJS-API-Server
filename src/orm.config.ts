@@ -1,7 +1,7 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 
 const commonConf = {
-    SYNCRONIZE: false,
+    SYNCRONIZE: true,
     ENTITIES: [__dirname + '/domain/*.entity{.ts,.js}'],
     MIGRATIONS: [__dirname + '/migrations/**/*{.ts,.js}'],
     CLI: {
@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === 'prod') {
         name: 'default',
         type: 'postgres',
         database: 'BookAPI',
-        url: 'postgres://YOUR_USER:YOUR_PWD@localhost:27017/BookAPI',
+        url: 'postgres://postgres:postgres@localhost:5432/BookAPI',
         logging: false,
         synchronize: commonConf.SYNCRONIZE,
         entities: commonConf.ENTITIES,

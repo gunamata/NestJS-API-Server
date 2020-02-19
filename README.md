@@ -68,7 +68,7 @@ if(process.env.NODE_ENV==='prod'){
 ```
 ## App Flow Diagram
 ```bash
-# Generate flow diagram. Below command generates arkit.svg in the folder. The command uses npm package arkit.
+# Generate flow diagram. Below command generates a file named arkit.svg in the folder. The command uses npm package arkit.
 $ npm run generate-flow-diagram
 ```
 [app-flow-diagram]: https://github.com/gunamata/NestJS-API-Server/blob/master/arkit.svg
@@ -91,7 +91,7 @@ $ set NODE_ENV=prod&& npm run build && npm run start:prod
 # run production build with node
 $ set NODE_ENV=prod&& node dist/main.js
 
-The app is server on http://localhost:8081. You can test the APIs using the Swagger API document page in your browser using the url http://localhost:8081/api/v2/api-docs/
+The app is served on http://localhost:8081. You can test the APIs using the Swagger API document page in your browser using the url http://localhost:8081/api/v2/api-docs/
 ```
 
 > You can specify dev or prod NODE_ENV value (default is dev as indicated in [.env](.env))
