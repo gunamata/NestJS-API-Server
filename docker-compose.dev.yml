@@ -5,4 +5,4 @@ services:
     volumes:
       - .:/usr/src/nestjs-api-app
     environment:
-      NODE_ENV: dev
+      - NODE_ENV=development
