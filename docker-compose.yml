@@ -3,4 +3,4 @@ services:
   app:
     build: .
     ports:
-      - '${PORT}:8081'
+      - '${PORT}:80'
