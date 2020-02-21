@@ -1,9 +1,11 @@
 FROM node:latest
 
+RUN mkdir /usr/src/nestjs-api-app
+
 WORKDIR /usr/src/nestjs-api-app
 
 COPY package*.json ./
 
-COPY . .
-
 RUN npm install
+
+COPY . .
