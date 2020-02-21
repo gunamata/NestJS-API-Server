@@ -4,6 +4,6 @@ WORKDIR /usr/src/nestjs-api-app
 
 COPY package*.json ./
 
-RUN npm install
-
 COPY . .
+
+RUN npm install
