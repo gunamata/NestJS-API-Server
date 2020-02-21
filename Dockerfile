@@ -1,6 +1,6 @@
 FROM node:latest
 
-RUN mkdir /usr/src/nestjs-api-app
+RUN mkdir -p /usr/src/nestjs-api-app
 
 WORKDIR /usr/src/nestjs-api-app
 
