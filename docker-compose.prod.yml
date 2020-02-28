@@ -4,4 +4,4 @@ services:
     command: npm run build && npm run start:prod
     restart: always
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=prod
