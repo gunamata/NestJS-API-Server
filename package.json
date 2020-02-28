@@ -22,9 +22,7 @@
     "test:watch": "jest --watch",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --coverage --config ./e2e/jest.e2e.config.json",
-    "generate-flow-diagram": "npx arkit src/ -o arkit.svg",
-    "rimraf": "./node_modules/rimraf/bin.js",
-    "ts-node": "./node_modules/ts-node/dist/bin.js"
+    "generate-flow-diagram": "npx arkit src/ -o arkit.svg"
   },
   "dependencies": {
     "@nestjs/common": "6.5.3",

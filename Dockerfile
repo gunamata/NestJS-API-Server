@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:12.10
 
 RUN mkdir -p /usr/src/nestjs-api-app
 
