@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === 'prod') {
         name: 'default',
         type: 'postgres',
         database: 'BookAPI',
-        url: 'postgres://postgres:postgres@localhost:5432/BookAPI',
+        url: 'postgres://process.env.POSTGRES_USERNAME:process.env.POSTGRES_PASSWORD@localhost:5432/BookAPI',
         logging: false,
         synchronize: commonConf.SYNCRONIZE,
         entities: commonConf.ENTITIES,
